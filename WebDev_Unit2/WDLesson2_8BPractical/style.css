@@ -1,2 +1,19 @@
 /* Challenge 2: Use w3SchoolsMockUp.png to help you write the necessary CSS rules.
    Hint: Remember all the fundamental CSS rules when working with flexboxes */
+html, body{
+  height:100%;
+  font-family:Arial;
+  margin:0 auto;
+}
+
+a{
+  text-decoration:none;
+  color:blue;
+}
+
+nav container{
+  flex:1;
+  text-align:center;
+  padding:10px;
+  transition:0.5s
+}
